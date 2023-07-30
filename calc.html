@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>calculatrice</title>
+     <link rel="stylesheet" href="./cacl.css">
+</head>
+
+<body>
+     <h1>********CALCULATRICE********</h1>
+
+     <div id="calculatrice">
+          <div id="display">0</div>
+          <div class="marque">LG-3000</div>
+          <div class="container">
+               <div class="number-container">
+                    <div id="number-box">
+                         <div class="number one" id="un" onclick="chiffre(1,1)">1</div>
+                         <div class="number two" id="deux" onclick="chiffre(2,1)">2</div>
+                         <div class="number three" id="trois" onclick="chiffre(3,1)">3</div>
+                         <div class="number for" id="quatre" onclick="chiffre(4,1)">4</div>
+                         <div class="number five" id="cinq" onclick="chiffre(5,1)">5</div>
+                         <div class="number six" id="six" onclick="chiffre(6,1)">6</div>
+                         <div class="number seven" id="sept" onclick="chiffre(7,1)">7</div>
+                         <div class="number height" id="huit" onclick="chiffre(8,1)">8</div>
+                         <div class="number nine" id="neuf" onclick="chiffre(9,1)">9</div>
+                         <div class="number nine" id="zero" onclick="chiffre(0,1)">0</div>
+                         <div class="number nine">( )</div>
+                         <div class="number nine">,</div>
+                    </div>
+                    <div id="special-box">
+                         <div class="special zero">CE</div>
+
+                         <div class="special resultat">=</div>
+                    </div>
+               </div>
+
+
+               <div class="operation" id="operator-box">
+                    <div class="operator division" id="opera1">/</div>
+                    <div class="operator multiplication" id="opera2">*</div>
+                    <div class="operator soustraction" id="opera3">-</div>
+                    <div class="operator addition" id="opera4">+</div>
+                    <div class="operator pourcentage">%</div>
+               </div>
+
+          </div>
+
+     </div>
+
+     <script src="./calc.js"></script>
+</body>
+
+</html>
